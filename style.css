@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(216, 12%, 8%);
+   justify-content: center;
+}
+.rating-card{
+background-color: hsl(213, 19%, 18%);
+width: 350px;
+padding: 20px;
+margin: auto;
+margin-top: 80px;
+border-radius: 15px;
+}
+
+#star{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color:hsl(217, 12%, 63%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    
+
+#how{
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#paragraph{
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 20px;
+}
+#numbers{
+   display: flex;
+   justify-content: space-evenly; 
+   color: hsl(0, 0%, 100%);
+   margin-bottom: 10px;
+   cursor: pointer;
+
+
+   #number1{
+    width: 50px; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    background-color:hsl(216, 12%, 54%);
+    color: hsl(213, 19%, 18%);
+    text-align: center;}
+
+    #number2{
+    width: 50px; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    background-color:hsl(216, 12%, 54%);
+    color: hsl(213, 19%, 18%);
+    text-align: center;}
+    
+    #number3{
+    width: 50px; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(213, 19%, 18%);
+    text-align: center;}
+   
+#number4{
+    width: 50px; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    background-color:hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;}
+   
+ #number5{
+    width: 50px; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    background-color:hsl(25, 97%, 53%); 
+    color: hsl(0, 0%, 100%);
+    text-align: center;}
+}
+.numbers:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.active, .active:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+
+button{
+    color:hsl(25, 97%, 53%);  
+    width: 320px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* .button:hover{
+        background-color: white;
+        color:hsl(25, 97%, 53%);
+    } */
+}
+#buttton:hover{
+    background-color: white;
+        color:hsl(25, 97%, 53%);
+}
+    
+
+ .slide2{
+background-color: hsl(213, 19%, 18%);
+width: 350px;
+padding: 20px;
+margin: auto;
+margin-top: 80px;
+border-radius: 15px;
+text-align: center;
+ } 
+ .select{
+    background-color: hsl(217, 12%, 63%);
+    color:hsl(25, 97%, 53%);  
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+ #thanks{
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ } 
+ #paragraph{
+    color: hsl(216, 12%, 54%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ } 
